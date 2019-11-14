@@ -1,5 +1,9 @@
 # front-end-starterpack
-Front End Startterpack Untuk Memudahkan Developing Tampilan Website Dengan Library Frontend
+
+![alt text](https://user-images.githubusercontent.com/31470100/68837127-7c8fbf80-06ee-11ea-8a59-d04243ac1095.png)
+
+
+# frontEnd StartterPack Untuk Memudahkan Membangun Tampilan website Dengan Library Populer
 Library : 
 1. OwlCarousel2 versi --> 2.3.4
 2. jquery versi --> 3.4.1
