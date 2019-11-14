@@ -1,0 +1,30 @@
+/* Fonts Banks */
+@font-face{
+    font-family: bebas-neue ;
+    src: url(assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: fjalla;
+    src: url(assets/fonts/Fjalla_One/FjallaOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: Heebo;
+    src: url(assets/fonts/Heebo/Heebo-Regular.ttf);
+}
+
+@font-face{
+    font-family: ibm-plex-sans;
+    src: url(assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: pacifico;
+    src: url(assets/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face{
+    font-family: roboto;
+    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+}

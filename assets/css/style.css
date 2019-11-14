@@ -1,0 +1,29 @@
+/* import google fonts */
+@import url('../css/fonts.css');
+
+/* parent variable */
+:root{
+    /* Fonts  */
+    --bebas-neue : 'bebas-neue', cursive;
+    --fjalla    : 'fjalla', cursive;
+    --Heebo    : 'Heebo', cursive;
+    --ibm-plex-sans : 'ibm-plex-sans', cursive;
+    --pacifico    : 'pacifico', cursive;
+    --roboto       : 'roboto', cursive;
+}
+
+.owl-carousel  .item h4{
+    background-color:#1a669c;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    display: table-cell;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+.roboto p{
+ font-family: var(--roboto);
+ font-size: 20px;
+}
