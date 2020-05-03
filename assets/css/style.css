@@ -80,18 +80,25 @@ body {
   justify-content: center;
 }
 
+.brand-logo .navigasi .nav {
+  justify-content: center;
+}
+
 .brand-logo .navigasi .nav .nav-item a {
   text-decoration: none;
+  color: #1a669c;
+  font-size: 15px;
 }
 
 .brand-logo .navigasi .nav .nav-item {
-  border-left: var(--text-blue) solid 1px;
-  font-size: 14px;
+  border-left: #1a669c solid 1px;
+  font-size: 16px;
+  font-weight: 500;
   height: 60px;
   width: auto;
   text-align: left;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-left: 12px;
   padding-right: 12px;
 }
