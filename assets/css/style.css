@@ -1,29 +1,102 @@
 /* import google fonts */
-@import url('../css/fonts.css');
+@import url("../css/fonts.css");
+
+/* Reset Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* parent variable */
-:root{
-    /* Fonts  */
-    --bebas-neue : 'bebas-neue', cursive;
-    --fjalla    : 'fjalla', cursive;
-    --Heebo    : 'Heebo', cursive;
-    --ibm-plex-sans : 'ibm-plex-sans', cursive;
-    --pacifico    : 'pacifico', cursive;
-    --roboto       : 'roboto', cursive;
+:root {
+  /* Fonts  */
+  --bebas-neue: "bebas-neue", cursive;
+  --fjalla: "fjalla", cursive;
+  --Heebo: "Heebo", cursive;
+  --ibm-plex-sans: "ibm-plex-sans", cursive;
+  --pacifico: "pacifico", cursive;
+  --roboto: "roboto", cursive;
 }
 
-.owl-carousel  .item h4{
-    background-color:#1a669c;
-    text-align: center;
-    color: white;
-    vertical-align: middle;
-    display: table-cell;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
+.owl-carousel .item h4 {
+  background-color: #1a669c;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  display: table-cell;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
 }
 
-.roboto p{
- font-family: var(--roboto);
- font-size: 20px;
+.roboto p {
+  font-family: var(--roboto);
+  font-size: 20px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+
+.container {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.brand-logo .logo img {
+  max-height: 55px;
+}
+
+.brand-logo .email-telp {
+  display: flex;
+}
+
+.brand-logo .email-telp ul {
+  list-style: none;
+  margin-left: auto;
+  align-items: center;
+  height: 100%;
+  color: #1a669c;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.brand-logo .email-telp ul a:hover {
+  text-decoration: none;
+  color: #1a669c;
+}
+
+.brand-logo .email-telp ul a {
+  text-decoration: none;
+  color: #1a669c;
+}
+
+.brand-logo .gambar-corak img {
+  width: 2024px;
+  max-height: 100px;
+  justify-content: center;
+}
+
+.brand-logo .navigasi .nav .nav-item a {
+  text-decoration: none;
+}
+
+.brand-logo .navigasi .nav .nav-item {
+  border-left: var(--text-blue) solid 1px;
+  font-size: 14px;
+  height: 60px;
+  width: auto;
+  text-align: left;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.brand-logo .navigasi .nav .nav-item .nav-desc {
+  font-size: 12px;
+  font-family: var(--opensans-regular);
+  font-style: italic;
 }
