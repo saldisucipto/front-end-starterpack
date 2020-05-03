@@ -37,12 +37,13 @@
 
 body {
   font-family: sans-serif;
-  background-color: whitesmoke;
+  background: rgb(8, 102, 158);
+  background: linear-gradient(0deg, rgba(8, 102, 158, 1) 64%, rgba(100, 159, 194, 1) 79%, rgba(255, 255, 255, 1) 91%);
 }
 
 .container {
-  background-color: white;
   padding-top: 20px;
+  color: white;
 }
 
 .brand-logo .logo img {
@@ -102,8 +103,135 @@ body {
   padding-left: 12px;
   padding-right: 12px;
 }
+
 .brand-logo .navigasi .nav .nav-item .nav-desc {
   font-size: 12px;
   font-family: var(--opensans-regular);
   font-style: italic;
 }
+
+.hero-slider .slider img {
+  padding-top: 10px;
+  max-height: 470px;
+  max-width: 1024;
+}
+
+.hero-slider .slider .carousel-inner .card {
+  background: rgba(26, 103, 156, 0.6);
+}
+
+.why-caa .card {
+  border: 0em;
+  background-color: rgba(8, 102, 158, 0);
+}
+
+
+.why-caa .card img {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.produk .card {
+  background-color: whitesmoke;
+  color: #1a669c;
+  height: 300px;
+
+}
+
+.produk .card .card-body {
+  height: 250px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+.produk .card img {
+  max-height: 90px;
+  max-width: 150px;
+  display: flex;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 20px;
+}
+
+.news .card {
+  border: 0em;
+}
+
+.news .card img {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  margin: auto;
+}
+
+.latest-project .desc {
+  color: white;
+}
+
+.latest-project .carous {
+  color: #1a669c;
+}
+
+.news .desc {
+  color: white;
+}
+
+.news .item {
+  color: #1a669c;
+}
+
+.footer {
+  background-color: whitesmoke;
+}
+
+.footer .container {
+  color: #1a669c;
+}
+
+/* footer */
+footer {
+  background-color: var(--background-color-footer);
+  color: var(--text-blue);
+}
+
+footer .footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer .container .row .about-company .img-prod a img {
+  max-width: 90px;
+  padding: 5px;
+}
+
+footer .footer .container .row .links li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 12px;
+
+}
+
+.footer .container ul li a {
+  color: #1a669c;
+  font-weight: 500;
+}
+
+.footer .container ul li a:hover {
+  text-decoration: none;
+}
+
+/* end footer */
