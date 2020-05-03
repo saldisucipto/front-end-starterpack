@@ -235,3 +235,72 @@ footer .footer .container .row .links li {
 }
 
 /* end footer */
+
+.about-us .image img {
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  top: 0;
+}
+
+.about-us .caption h1 {
+  position: absolute;
+  top: 20px;
+  z-index: 2;
+  margin: 0 0 auto;
+  color: #fff;
+}
+
+.row .content img {
+  max-width: 500px;
+}
+
+.row .col {
+  display: flex;
+}
+
+.row .col .desc {
+  border-left: 2px solid white;
+}
+
+.alamat .kantor {
+  padding-top: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.alamat .kantor img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 0em;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.caption .card {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.caption .card .card-header {
+  background-color: rgba(0, 121, 191, 0.4);
+}
+
+.alamat .workshop {
+  padding-top: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.alamat .workshop img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 0em;
+}
