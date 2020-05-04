@@ -328,3 +328,31 @@ footer .footer .container .row .links li {
   font-family: sans-serif;
   text-align: center;
 }
+
+.content-services .img-desc img {
+  padding: 10px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 1110px;
+  height: 600px;
+}
+
+.content-services .img-desc {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.content-services .desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-left: white 2px solid;
+}
+
+.content-services .desc .img-services img {
+  max-height: 200px;
+  max-width: 200px;
+}
