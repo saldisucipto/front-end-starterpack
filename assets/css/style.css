@@ -83,6 +83,13 @@ body {
 
 .brand-logo .navigasi .nav {
   justify-content: center;
+  text-align: center;
+}
+
+.brand-logo .navigasi {
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
 }
 
 .brand-logo .navigasi .nav .nav-item a {
