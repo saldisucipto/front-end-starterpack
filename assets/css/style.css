@@ -311,3 +311,20 @@ footer .footer .container .row .links li {
   border-radius: 10px;
   margin: 0em;
 }
+
+.productmesin .content .card-item {
+  padding-top: 30px;
+}
+
+.productmesin .content .card-item .card {
+  color: #1a669c;
+}
+
+.productmesin .content .card-item .card .card-title {
+  font-weight: bold;
+}
+
+.productmesin .content .card-item .card .card-body {
+  font-family: sans-serif;
+  text-align: center;
+}
